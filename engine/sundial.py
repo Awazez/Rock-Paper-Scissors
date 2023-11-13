@@ -6,11 +6,19 @@
 
 import random
 
+
+#This algorithm for computer playing is a bit dumb. Machine learning is on the way ! 
 def dumb_algo():
     options = ["Rock", "Paper", "Scissors"]
     return random.choice(options)
 
+#To improve the algorithm we can use win combination 
+#player_win_combination = {0: 2, 1: 0, 2: 1}
+
 def determine_winner(player_choice, computer_choice):
+# We check the tie first to get rid of 3 cases : 
+# Rock against Rock, Paper against Paper, Scissors against Scissors
+
     if player_choice == computer_choice:
         return "Tie"
     elif (
