@@ -13,6 +13,7 @@ This is a simple Rock-Paper-Scissors game implemented in Python with a graphical
 
 ## Packages 
 
+
 - Python 3.x
 - Tkinter (included with most Python installations)
 
@@ -30,6 +31,9 @@ For more information, send a mail to martin [dot] aubeut [@] gmail [dot] com
 ## Copyright
 
 Copyright (c) 2023-present Martin AUBEUT. See LICENSE.md for further details.
+
+
+
 
 
 
